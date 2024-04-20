@@ -1,10 +1,10 @@
 # Style Assignment #1
 
-This assignment is about creating a simple styles with 7-1 sass. Also with a single css file for a next.js file that for the same purpose. We also had create a profile page for a user. 
+This assignment is about creating a simple styles with 7-1 sass. Also with a single css file for a next.js file that for the same purpose. We also had create a profile page for a user.
 
 ## User Profile.
 
-The code code tjat is for the profile page.  It displays information about a user such as their name, bio and hobbies. 
+The code code tjat is for the profile page. It displays information about a user such as their name, bio and hobbies.
 
 ![alt text](image.png)
 
@@ -16,9 +16,13 @@ I used a componet page for the profile page.
 
 ![alt text](image-1.png)
 
-## Next.js
+## Profile Style
 
+I created a profile style with 7-1 sass and a individual css file.
 
+![alt text](image-3.png)
+
+![alt text](image-2.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
