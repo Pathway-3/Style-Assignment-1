@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import UserProfile from "../components/userProfile";
+import UserProfile from "../componets/userProfile";
 import axios from "axios";
 import "./profile.css";
 
