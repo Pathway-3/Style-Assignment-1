@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./profile.css";
+import Link from "next/link";
 import UserProfile from "../components/UserProfile";
 
 export default function page() {

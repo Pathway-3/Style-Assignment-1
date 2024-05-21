@@ -10,7 +10,7 @@ export default function UserProfile({ userName, userBio, userHobbies }) {
       {!userHobbies.length ? (
         <ul>
           {userHobbies.map((hobby) => (
-            <li> {hobby}</li>
+            <li key={hobby}>{hobby}</li>
           ))}
         </ul>
       ) : (
