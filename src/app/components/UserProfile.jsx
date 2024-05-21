@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function profile({ userName, userBio, userHobbies }) {
+export default function UserProfile({ userName, userBio, userHobbies }) {
   return (
     <div>
       <h1>{!userName ? "Missing User Info" : userName}</h1>
