@@ -1,8 +1,16 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function profile({ userName, userBio, userHobbies }) {
+  const [userName, setUserName] = useState("");
+  const [userBio, setUserBio] = useState("");
+  const [userHobbies, setUserHobbies] = useState([]);
+
+  useEffect(() => {
+    console.log("Component mounted");
+  }, []);
+
   return (
     <div>
       <h1>{!userName ? "Missing User Info" : userName}</h1>
